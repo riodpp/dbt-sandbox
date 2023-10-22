@@ -1,0 +1,13 @@
+sandbox:
+  outputs:
+    dev:
+      dataset: example
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: sandbox-402413
+      threads: 2
+      type: bigquery
+  target: dev
