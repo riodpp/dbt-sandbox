@@ -1,0 +1,7 @@
+models:
+  - name: my_model_contracts
+    columns:
+      - name: int_col
+        data_type: int
+      - name: string_col
+        data_type: string
